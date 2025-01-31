@@ -1,0 +1,2 @@
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json vkcube
+Selected GPU 0: NVIDIA GeForce GTX 1050 Ti, type: 2

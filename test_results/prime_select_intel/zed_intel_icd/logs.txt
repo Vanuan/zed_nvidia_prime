@@ -1,0 +1,9 @@
+2025-01-31T04:06:24.310229038+02:00 [INFO] ========== starting zed ==========
+2025-01-31T04:06:24.353522397+02:00 [INFO] Presentation support: "VK_KHR_wayland_surface"
+2025-01-31T04:06:24.353589439+02:00 [INFO] Presentation support: "VK_KHR_xcb_surface"
+2025-01-31T04:06:24.353641348+02:00 [INFO] Presentation support: "VK_KHR_xlib_surface"
+2025-01-31T04:06:24.353694193+02:00 [INFO] Enabling color space support
+2025-01-31T04:06:24.362254471+02:00 [INFO] Adapter: "Intel(R) UHD Graphics 630 (CFL GT2)"
+2025-01-31T04:06:24.362573673+02:00 [INFO] No ray tracing extensions are supported
+2025-01-31T04:06:24.365109054+02:00 [INFO] perform;
+2025-01-31T04:06:24.365159869+02:00 [INFO] authenticate;

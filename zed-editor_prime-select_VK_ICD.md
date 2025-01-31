@@ -81,6 +81,9 @@ test_results/
   - Logs: `test_results/prime_select_intel/zed_intel_icd/logs.txt`
   - Screenshot: `test_results/prime_select_intel/zed_intel_icd/screenshot.png`
 
+- **Suspension**:
+  - suspends/resumes without issues
+
 #### Test Case 1.2: `VK_ICD_FILENAMES=nvidia_icd.json`
 - **Steps**:
   1. Set `prime-select` to `intel`.
@@ -97,6 +100,10 @@ test_results/
   - Screenshot: `test_results/prime_select_intel/vkcube_nvidia_icd/screenshot.png`
   - Logs: `test_results/prime_select_intel/zed_nvidia_icd/logs.txt`
   - Screenshot: `test_results/prime_select_intel/zed_nvidia_icd/screenshot.png`
+
+- **Suspension**:
+  - Suspends and resumes without issues
+
 
 ### Scenario 2: `prime-select nvidia` (Performance Mode)
 #### Test Case 2.1: `VK_ICD_FILENAMES=intel_icd.x86_64.json`
@@ -171,6 +178,7 @@ test_results/
 ## Test Execution
 - **Tester**: @vanuan
 - **Date**: 30 Jan 2025
+- **Zed version**: 0.172.2
 - **Notes**:
   - Ensure `prime-select` and `VK_ICD_FILENAMES` are correctly set before each test.
   - Verify logs for GPU selection and rendering behavior.
