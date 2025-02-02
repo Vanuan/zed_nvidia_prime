@@ -1,0 +1,11 @@
+2025-02-02T01:42:30.569568133+02:00 [INFO] ========== starting zed ==========
+2025-02-02T01:42:30.587893141+02:00 [INFO] Compositor detection: _NET_WM_CM_S?=false, _NET_WM_CM_OWNER=false, _NET_SUPPORTING_WM_CHECK=true
+2025-02-02T01:42:30.587973124+02:00 [INFO] x11: compositor present: true, gtk_frame_extents_supported: true
+2025-02-02T01:42:30.601038238+02:00 [INFO] Presentation support: "VK_KHR_wayland_surface"
+2025-02-02T01:42:30.601092933+02:00 [INFO] Presentation support: "VK_KHR_xcb_surface"
+2025-02-02T01:42:30.601141849+02:00 [INFO] Presentation support: "VK_KHR_xlib_surface"
+2025-02-02T01:42:30.601188541+02:00 [INFO] Enabling color space support
+2025-02-02T01:42:30.608801758+02:00 [INFO] Adapter: "Intel(R) UHD Graphics 630 (CFL GT2)"
+2025-02-02T01:42:30.609108697+02:00 [INFO] No ray tracing extensions are supported
+2025-02-02T01:42:30.611877377+02:00 [INFO] Try connect ibus
+2025-02-02T01:42:30.612572763+02:00 [INFO] perform;

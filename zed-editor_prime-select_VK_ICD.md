@@ -100,9 +100,10 @@ test_results/
   - Screenshot: `test_results/prime_select_intel/vkcube_nvidia_icd/screenshot.png`
   - Logs: `test_results/prime_select_intel/zed_nvidia_icd/logs.txt`
   - Screenshot: `test_results/prime_select_intel/zed_nvidia_icd/screenshot.png`
+  - Screenshot on suspend/resume: `test_results/prime_select_intel/zed_nvidia_icd/screenshot2.png`
 
 - **Suspension**:
-  - Suspends and resumes without issues
+  - Suspend/resume result in xdg-desktop-portal-gtk crash and rendering artifacts (see screenshot)
 
 
 ### Scenario 2: `prime-select nvidia` (Performance Mode)
@@ -158,6 +159,9 @@ test_results/
   - Logs: `test_results/prime_select_on_demand/zed_intel_icd/logs.txt`
   - Screenshot: `test_results/prime_select_on_demand/zed_intel_icd/screenshot.png`
 
+- **Suspend/resume**:
+  - Both Zed and vkcube work without issues
+
 #### Test Case 3.2: `VK_ICD_FILENAMES=nvidia_icd.json`
 - **Steps**:
   1. Set `prime-select` to `on-demand`.
@@ -175,10 +179,14 @@ test_results/
   - Logs: `test_results/prime_select_on_demand/zed_nvidia_icd/logs.txt`
   - Screenshot: `test_results/prime_select_on_demand/zed_nvidia_icd/screenshot.png`
 
+- **Suspend/resume**:
+  - Zed crashes (see logs)
+  - vkcube crashes
+
 ## Test Execution
 - **Tester**: @vanuan
 - **Date**: 30 Jan 2025
-- **Zed version**: 0.172.2
+- **Zed version**: 0.172.2 - 0.172.5
 - **Notes**:
   - Ensure `prime-select` and `VK_ICD_FILENAMES` are correctly set before each test.
   - Verify logs for GPU selection and rendering behavior.
