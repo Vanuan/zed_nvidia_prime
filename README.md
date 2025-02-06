@@ -41,7 +41,7 @@ This repository documents testing results for Zed editor and vkcube behavior acr
 ### Suspend/Resume related
 - [Zed is sometimes unresponsive when macOS awakes from sleep #7940](https://github.com/zed-industries/zed/issues/7940) - oldest issue
 - [Crash when screen is locked and monitor goes into power-saving mode #14022](https://github.com/zed-industries/zed/issues/14022)
-- [Zed crashes after suspension and causes brief system freezes when opening new windows #22320](https://github.com/zed-industries/zed/issues/22320)
+- [Linux: Zed causes brief system freezes when opening new windows #22320](https://github.com/zed-industries/zed/issues/22320)
 - [Zed hung after Ubuntu 24.04 hibernate reawakens #18478](https://github.com/zed-industries/zed/issues/18478)
 
 ### General cashes and freezed
