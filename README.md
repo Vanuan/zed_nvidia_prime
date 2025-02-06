@@ -72,3 +72,5 @@ This repository documents testing results for Zed editor and vkcube behavior acr
 For complete test logs and screenshots, see the [test_results](./test_results) directory.
 
 For the full test plan and methodology, see [zed-editor_prime-select_VK_ICD.md](./zed-editor_prime-select_VK_ICD.md).
+
+For the proposed solution, see [SOLUTION.md](./SOLUTION.md).
