@@ -47,13 +47,16 @@ This repository documents testing results for Zed editor and vkcube behavior acr
 ### General cashes and freezed
 - [Don't panic on GPU hang #14974](https://github.com/zed-industries/zed/pull/14974)
 - [Crash when moving window in Xorg + Awesome WM #12766](https://github.com/zed-industries/zed/issues/12766)
-- [Implement graceful recovery for GPU device loss in Zed #23288](https://github.com/zed-industries/zed/issues/23288)
 - [Zed freezing my enviroment #14519](https://github.com/zed-industries/zed/issues/14519)
 
-### NVIDIA hybrid graphics specific
+### Solution discussions
+
 - [docs: Update linux.md to include NVIDIA PRIME workaround #23438](https://github.com/zed-industries/zed/pull/23438) - old PR to document workarounds (closed)
 - [docs: Update linux.md to include NVIDIA hybrid graphics limitations #24343](https://github.com/zed-industries/zed/pull/24343) - current PR to document workarounds
+- [Implement graceful recovery for GPU device loss in Zed #23288](https://github.com/zed-industries/zed/issues/23288)
 - [Zed doesn't work with NVIDIA Optimus on Linux out of the box #22900](https://github.com/zed-industries/zed/issues/22900)
+- [Feature request: Introduce SyncStatus and InvalidSyncPoint for enhanced synchronization feedback #248](https://github.com/kvark/blade/issues/248) - Blade error handling improvement
+
 
 ## Test environment
 
