@@ -51,7 +51,7 @@ This repository documents testing results for Zed editor and vkcube behavior acr
 - [Zed freezing my enviroment #14519](https://github.com/zed-industries/zed/issues/14519)
 
 ### NVIDIA hybrid graphics specific
-- [docs: Update linux.md to include NVIDIA PRIME workaround #23438](https://github.com/zed-industries/zed/pull/23438)
+- [docs: Update linux.md to include NVIDIA PRIME workaround #23438](https://github.com/zed-industries/zed/pull/23438) - PR to document workarounds
 - [Zed doesn't work with NVIDIA Optimus on Linux out of the box #22900](https://github.com/zed-industries/zed/issues/22900)
 
 ## Test environment
