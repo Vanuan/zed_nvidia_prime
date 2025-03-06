@@ -38,6 +38,4 @@ This implementation respects Zed's architecture by:
 3. Providing integration points with GPUI's rendering system
 4. Using appropriate Rust crates (zbus, serde, thiserror) that align with Zed's dependencies
 
-The solution follows the "Proper Approach" outlined in the Zed document, ensuring that device loss is detected reliably, application state is preserved, and users are properly notified of issues.
-
-Would you like me to explain any particular aspect of the implementation in more detail?
+The solution follows the "Proper Approach" outlined in [../SOLUTION.md], ensuring that device loss is detected reliably, application state is preserved, and users are properly notified of issues.
