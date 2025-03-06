@@ -1,6 +1,6 @@
 # Implementing Vulkan Device Loss Handling in Zed
 
-I've created a Rust implementation specifically designed for Zed's architecture, using Blade and GPUI. This implementation addresses the key challenges of Vulkan device loss during suspend/resume cycles on Linux.
+Here's a Rust implementation that addresses the key challenges of Vulkan device loss during suspend/resume cycles on Linux.
 
 ## Core Components
 
